@@ -60,18 +60,25 @@
 		font-size: 2vw;
 		
 	}
-	.topnav .logo:hover {
+	 .topnav .logo:hover {
   text-decoration: none;
 	 background-color: #00EBFF;
 }
   
 	.topnav .logo {
 		margin-right: auto;
-	background-color: #00EBFF;}
-  .topnav a {
-    padding: 2vw;
-    font-size: 3vw;
-  }
+	background-color: #00EBFF;} 
+	.topnav {
+		 padding: 8px 8px;
+       
+    }
+	.topnav a {
+        font-size: 3vw;
+    }
+ 	.opis h2 {
+		font-size: 3.5vw;
+    margin-top: 20px;
+}
 
   .logo {
     font-size: 8vw;
