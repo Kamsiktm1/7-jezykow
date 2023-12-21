@@ -60,7 +60,8 @@
 		font-size: 2vw;
 		
 	}
-	 .topnav .logo:hover {
+	@media (max-width: 600px) {
+      .topnav .logo:hover {
   text-decoration: none;
 	 background-color: #00EBFF;
 }
@@ -78,6 +79,21 @@
  	.opis h2 {
 		font-size: 3.5vw;
     margin-top: 20px;
+}
+
+    .container {
+        max-width: 90%;
+        margin: 40px auto;
+        padding: 10px;
+    }
+
+    .tytul {
+        font-size: 5vw;
+    }
+
+    .opis {
+        font-size: 3vw;
+    }
 }
 
   .logo {
