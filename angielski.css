@@ -1,45 +1,4 @@
-
-body {
-    background-image: url("zdjecia/wallpaperflare.com_wallpaper.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #fff;
-    overflow-x: hidden;
-}
-
-.wszystko {
-    min-height: 100vh;
-    position: relative;
-}
-
-.topnav {
-    background-color: #345678;
-    overflow: hidden;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 10px 0;
-    z-index: 1000;
-}
-
-.topnav a {
-    transition: background-color 0.3s, color 0.3s;
-    color: #fff;
-    text-decoration: none;
-    padding: 14px 16px;
-    font-size: 19px;
-    font-family: Arial, sans-serif;
-}
-
-.topnav a:hover {
-    background-color: #456789;
-    color: #000;
-}
+@charset "utf-8";
 .logo {
       font-size: 24px;
       color: #fff;
@@ -80,8 +39,50 @@ body {
   flex: 1; 
   text-align: center; 
 }
+body {
+    background-image: url("zdjecia/francja.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.wszystko {
+    min-height: 100vh;
+    position: relative;
+}
+
+.topnav {
+    background-color: #345678;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.topnav a {
+    transition: background-color 0.3s, color 0.3s;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #456789;
+    color: #000;
+}
+
 .container {
-    background-color: rgba(30, 101, 172, 0.8);
+   background-color: rgba(0, 130, 237, 0.8);
     text-align: center;
     max-width: 800px;
     margin: 80px auto;
@@ -128,8 +129,7 @@ body {
 }
 
 .stopka {
-    background-color: #345678;
-    color: #fff;
+    background-color:#005FD1; 
     text-align: center;
     padding: 10px;
     bottom: 0;
@@ -145,10 +145,8 @@ body {
 .stopka a:hover {
     text-decoration: underline;
 }
-
-
 @media (max-width: 600px) {
-     .topnav .logo:hover {
+    .topnav .logo:hover {
   text-decoration: none;
 	 background-color: #00EBFF;
 }
@@ -156,6 +154,10 @@ body {
 	.topnav .logo {
 		margin-right: auto;
 	background-color: #00EBFF;}
+	.topnav {
+		 padding: 8px 8px;
+       
+    }
 	.topnav a {
         font-size: 3vw;
     }
@@ -189,6 +191,10 @@ body {
 		margin-right: auto;
 	background-color: #00FF4C;}
 
+	.topnav a {
+        font-size: 2vw;
+    }
+
     .container {
         max-width: 70%;
         margin: 40px auto;
@@ -211,14 +217,16 @@ body {
 
 
 @media (min-width: 1200px) {
-  .topnav .logo:hover {
-  text-decoration: none;
+    .topnav .logo:hover { text-decoration: none;
 	 background-color:#FFFD00;
 }
  
 .topnav .logo {
 		margin-right: auto;
 	background-color: #FFFD00;}
+	.topnav a {
+        font-size: 1.2vw;
+    }
 
     .container {
         max-width: 50%;
@@ -238,3 +246,4 @@ body {
     margin-top: 20px;
 }
 }
+
